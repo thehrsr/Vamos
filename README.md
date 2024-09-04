@@ -1,3 +1,72 @@
+GUI/DATABASE SCREENSHOTS
+1.	HOMEPAGE
+   
+ ![image](https://github.com/user-attachments/assets/95799545-69df-4f8c-a091-b8e4222cab73)
+
+ 
+ 
+
+2. REGISTER 
+ ![image](https://github.com/user-attachments/assets/a0ec864c-5f3e-4845-a67a-55f8efd0b4de)
+
+
+3. LOGIN
+ 
+
+
+
+
+
+
+
+4.	RIDES
+ 
+ 
+
+5.	SERVICES
+ 
+
+
+6.	ABOUT US 
+ 
+ 
+ 
+
+
+
+
+7.	CONTACT US 
+ 
+ 
+ 
+
+
+
+
+DATABASE SCREENSHOTS
+
+ 
+
+ 
+
+
+CONCLUSION & FUTURE SCOPE
+FUTURE SCOPE :
+1.	Mobile App Development: Create a dedicated mobile app for easy bike rentals and route tracking.
+2.	Augmented Reality (AR) Integration: Integrate AR technology for interactive maps and virtual bike try-ons.
+3.	Smart Lock Integration: Offer smart locks unlocked via the app for enhanced security and convenience.
+4.	Personalized Recommendations: Implement AI-driven algorithms for personalized bike and route recommendations.
+5.	Subscription Models: Introduce subscription plans for frequent bikers with discounts and priority bookings.
+6.	Social Integration: Enable social media login, sharing biking experiences, and connecting with friends.
+7.	Virtual Tours and VR Experiences: Develop virtual tours and VR experiences for exploring biking routes.
+8.	Environmental Impact Metrics: Provide data on biking's environmental impact compared to other transportation modes.
+9.	Multi-language Support: Offer content and interfaces in multiple languages for a global audience.
+10.	Integration with Local Businesses: Collaborate with local establishments for special discounts to bike rental users.
+11.	Rental Station Expansion: Increase physical rental stations for more convenient pickup and drop-off points.
+12.	AI-driven Customer Support: Implement chatbots or AI-powered support for real-time assistance.
+13.	Collaborative Route Creation: Allow users to create and share biking routes within the community.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
