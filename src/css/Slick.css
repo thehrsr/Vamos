@@ -1,0 +1,82 @@
+.slick-slide {
+    margin: 0 10px;
+    min-height: 200px;
+    padding-right: 50px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    border-radius: 8px;
+  }
+  .multiple-card-slider img{
+    width:392px;
+    height: 208px;
+  
+    border-radius: 8px;
+  }
+  
+
+  .slick-prev,
+  .slick-next {
+   
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    cursor: pointer;
+    background: rgba(203, 203, 203, 0.874);
+    border-radius: 50%;  
+  }
+
+  .slick-prev {
+    left: 0px;
+  }
+
+  .slick-next {
+    right: 0px;
+  }
+
+  /* Customize card styles */
+.slick-slide {
+    margin: 0 10px;
+    min-height: 200px;
+    padding-right: 50px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+  }
+  .slider-container {
+      max-width: 1468px; /* Set the maximum width for the slider */
+      margin: 0 auto; /* Center the container on the page */
+    }
+  
+  .multiple-card-slider img {
+    width: 392px;
+    height: 208px;
+    border-radius: 8px;
+  }
+  
+  /* Customize arrow styles */
+  .slick-prev,
+  .slick-next {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    cursor: pointer;
+    background: rgba(203, 203, 203, 0.874);
+    border-radius: 50%;
+  }
+  
+  .slick-prev {
+    left: 20px;
+  }
+  
+  .slick-next {
+    right: 20px;
+  }
+  

@@ -1,0 +1,84 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;300;400;500;600;700;800;900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box; scroll-padding-top: 2rem; 
+scroll-behavior: smooth;
+list-style: none;
+text-decoration: none;
+font-family: 'League Spartan', sans-serif;
+}
+:root { 
+--main-color:#ffb037;
+--second-color: #febb3d;
+--text-color: #444;
+--gradient: linear-gradient(#ffb037, #fe5b3d);
+}
+html::-webkit-scrollbar {
+width: 0.5rem;
+}
+html::-webkit-scrollbar-track {
+background: transparent;
+}
+html::-webkit-scrollbar-thumb {
+    background: #ffb037;
+    border-radius: 5rem;
+    }
+    .slick2{
+        /* padding-top: 800px;
+        padding-bottom: 120px; */
+        height: 300px;
+        position: relative;
+        width: 100%;
+    }
+    .slick2 p{
+        color: rgba(152,166,179,.81);
+        font-size: 2rem;
+        letter-spacing: 2px;
+        font-weight: 700;
+        cursor: pointer; 
+        padding-left: 70px;
+        padding-bottom: 15px;
+    }
+    .slick1{
+        margin-top: 70px;
+        height: 250px;
+        position: relative;
+        width: 100%;
+    }
+    .slick1 p{
+        color: rgba(152,166,179,.81);
+        font-size: 2rem;
+        letter-spacing: 2px;
+        font-weight: 700;
+        cursor: pointer; 
+        padding-left: 80px;
+        padding-bottom: 15px;
+    }
+    .bg1{
+        padding-top: 10px;
+        position: relative;
+        padding-bottom:100px;
+        
+    }
+    .off{
+        padding-top:100px;
+        position: relative;
+        width:100%;
+        height:200px;
+    }
+    .off p{
+        color: rgba(152,166,179,.81);
+        font-size: 2rem;
+        letter-spacing: 2px;
+        font-weight: 700;
+        cursor: pointer; 
+        padding-left: 60px;
+        padding-bottom: 20px;
+    }
+    /* *{
+        background-color: aliceblue;
+    } */

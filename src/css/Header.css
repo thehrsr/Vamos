@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box; scroll-padding-top: 2rem; 
+scroll-behavior: smooth;
+list-style: none;
+text-decoration: none;
+font-family: 'League Spartan', sans-serif;
+}
+:root { 
+
+--second-color: #febb3d;
+--text-color: #444;
+--gradient: linear-gradient(#ffb037, #fe5b3d);
+}
+html::-webkit-scrollbar {
+width: 0.5rem;
+}
+html::-webkit-scrollbar-track {
+background: transparent;
+}
+html::-webkit-scrollbar-thumb {
+    background: #ffb037;
+    border-radius: 5rem;
+    }
+    
+section{
+    padding: 50px 100px;
+}
+header{
+    position:relative;
+    width:100%;
+    top: 20px;
+    /* height:100px; */
+    right:0;
+    z-index:1000;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 7.5px 20px 7.5px 0px;
+}
+.logo img{
+    width:200px;
+    margin-left: 50px;
+}
+.logo {
+    margin-left:12px;
+    display: flex;
+    justify-items: left;
+}
+.navbar{
+    display: flex;
+}
+.navbar li{
+    position: relative;
+    
+}
+.navbar a{
+    font-size: 1.2rem;
+    padding:10px 50px;
+    color:#444;
+    font-weight:500;
+    text-decoration: none;
+}
+.navbar a::after {
+    content:"";   
+    width:0;
+    height: 3px;
+    background: linear-gradient(#ffb037, #fe5b3d);
+    position: absolute;
+    bottom:-4px;
+    left:0;
+     transition:0.5s;
+}
+.navbar a:hover::after {
+    width:100%;
+}
+#menu-icon{
+    font-size:24px;
+    cursor:pointer;
+    z-index: 10001;
+    display: none;
+}
+
+.header-btn a{
+    padding: 14px 20px;
+    color:#444;
+    font-weight: 500;
+    text-decoration: none;
+}
+.header-btn .sign-in{
+    background: #ffb037;
+    border-radius: 1.2rem;
+}
+.header-btn .sign-in:hover{
+    background: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    color:white;
+
+}
+.header-btn .sign-up{
+    background: #ffb037;
+    border-radius: 1.2rem;
+    margin-right: 8px;
+}
+.header-btn .sign-up:hover{
+    background: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    color:white;
+    
+}
